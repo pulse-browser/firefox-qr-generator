@@ -9,22 +9,23 @@
     },
 
     "description": "An wide ranged emoji picker extension for firefox based browsers.",
-    "permissions": ["menus", "<all_urls>"],
+    "permissions": ["menus", "<all_urls>", "tabs"],
+
+    "page_action": {
+        "browser_style": true,
+        "default_icon": {
+            "48": "icons/qr-icon.svg"
+        },
+        "default_title": "Generate QR Code For This Page",
+        "default_popup": ""
+    },
 
     "background": {
         "scripts": ["background.js"]
     },
 
     "web_accessible_resources": ["js/main.css", "js/qrcode.min.js"],
-
-    "content_scripts": [
-        {
-            "all_frames": true,
-            "matches": ["<all_urls>"],
-            "js": ["content.js"]
-        }
-    ],
-
+      
     "icons": {
         "48": "icons/qr-icon.svg"
     }
