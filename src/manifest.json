@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "firefox-qr-generator",
+    "version": "0.0.0",
+    "applications": {
+        "gecko": {
+        "id": "qr-generator@browser.fushra.com"
+        }
+    },
+
+    "description": "An wide ranged emoji picker extension for firefox based browsers.",
+    "permissions": ["menus", "tabs", "<all_urls>", "theme"],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+  
+}
