@@ -15,7 +15,7 @@
         "scripts": ["background.js"]
     },
 
-    "web_accessible_resources": ["main.css"],
+    "web_accessible_resources": ["js/main.css", "js/qrcode.min.js"],
 
     "content_scripts": [
         {
