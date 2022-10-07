@@ -1,10 +1,15 @@
 <html>
     <head>
         <title>QR Code Generated</title>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <script src="qrcode.min.js"></script>
+        <link rel="stylesheet" href="chrome://browser/content/extension.css" />
+        <link rel="stylesheet" href="main.css" />
     </head>
     <body>
+        <header class="panel-section panel-section-header">
+            <div class="text-section-header">Generated QR Code</div>
+        </header>
         <div id="qrcode"></div>
     </body>
     <script src="main.js"></script>
