@@ -9,7 +9,7 @@
     },
 
     "description": "An wide ranged emoji picker extension for firefox based browsers.",
-    "permissions": ["menus", "tabs", "<all_urls>", "theme"],
+    "permissions": ["menus", "<all_urls>"],
 
     "background": {
         "scripts": ["background.js"]
