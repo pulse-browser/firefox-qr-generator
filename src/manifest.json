@@ -23,5 +23,9 @@
             "matches": ["<all_urls>"],
             "js": ["content.js"]
         }
-    ]
+    ],
+
+    "icons": {
+        "48": "icons/qr-icon.svg"
+    }
 }

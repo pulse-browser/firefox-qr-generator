@@ -1,5 +1,5 @@
 const qr_generator = browser.menus.create({
-    title: "qr-generator",
+    title: "Generate QR Code for this page",
     contexts: ["all"],
     documentUrlPatterns: ["*://*/*"],
 });
