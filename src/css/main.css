@@ -1,3 +1,15 @@
-body {
-    overflow: hidden;
+/* if prefers-color-scheme theme body have dark background white text */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2a2a2e;
+    color: #fff;
+  }
+}
+
+/* if prefers-color-scheme light */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fff;
+    color: #2a2a2e;
+  }
 }
