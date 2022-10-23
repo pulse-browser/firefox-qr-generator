@@ -1,3 +1,11 @@
+#qrcode {
+  padding: 18px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* if prefers-color-scheme theme body have dark background white text */
 @media (prefers-color-scheme: dark) {
   body {
